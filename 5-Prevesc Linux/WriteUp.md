@@ -63,3 +63,22 @@ It's rare when performing a real-world penetration test to be able to gain a foo
 
 ![5](https://user-images.githubusercontent.com/94765997/162598482-a008acc5-4316-492e-bc2b-5f869c779a3e.png)
 
+
+Automated Enumeration Tools :
+
+Several tools can help you save time during the enumeration process. These tools should only be used to save time knowing they may miss some privilege escalation vectors. Below is a list of popular Linux enumeration tools with links to their respective Github repositories.
+
+The target system’s environment will influence the tool you will be able to use. For example, you will not be able to run a tool written in Python if it is not installed on the target system. This is why it would be better to be familiar with a few rather than having a single go-to tool.
+
+LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
+
+LinEnum: https://github.com/rebootuser/LinEnum
+
+LES (Linux Exploit Suggester): https://github.com/mzet-/linux-exploit-suggester
+
+Linux Smart Enumeration: https://github.com/diego-treitos/linux-smart-enumeration
+
+Linux Priv Checker: https://github.com/linted/linuxprivchecker
+
+![6](https://user-images.githubusercontent.com/94765997/162598570-62dd68ff-7869-41d0-8b08-eae067886200.png)
+
