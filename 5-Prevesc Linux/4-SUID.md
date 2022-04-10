@@ -18,6 +18,8 @@ Exemple :
 
 The /etc/shadow file is used to increase the level of password security. The file contains a hashed version of the passwords and only very privileged users can access it.
 
+![14](https://user-images.githubusercontent.com/94765997/162627534-d7bee33d-d976-4792-af16-0aa1db62efae.png)
+
 
 The command :
       
@@ -31,6 +33,27 @@ The command :
  
 ![suid64](https://user-images.githubusercontent.com/94765997/162627310-93ebe67e-ed44-4fd4-be47-d5ea78c01ff8.png)
 
+and use it to decode /etc/shadow file and show all user hashes :
+
+      LFILE=/etc/shadow
+      /usr/bin/base64 "$LFILE" | base64 --decode
 
 
-![14](https://user-images.githubusercontent.com/94765997/162627534-d7bee33d-d976-4792-af16-0aa1db62efae.png)
+
+![16](https://user-images.githubusercontent.com/94765997/162627753-632f0f73-9a49-4911-8cbe-0fed1a906cb1.png)
+
+
+What is the password of user2? :
+
+
+![user2](https://user-images.githubusercontent.com/94765997/162627918-081da508-e03c-450c-8d71-e39b2b6ec539.png)
+
+
+      1- create file user2 containt user2 hash 
+      2- use john the ripper to get user 2password 
+      
+
+![17](https://user-images.githubusercontent.com/94765997/162628019-8cc380ee-136d-4057-b6d5-54cfe144fdbb.png)
+
+
+      Password = Password1
