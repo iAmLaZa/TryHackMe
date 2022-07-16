@@ -8,35 +8,35 @@
 
 - [ ] What does nmap stand for?
 
-	Network Mapper
+		Network Mapper
 
 - [ ] How do you specify which port(s) to scan?
 
-	-p
+		-p
 
 - [ ] How do you do a "ping scan"(just tests if the host(s) is up)?
 
-	-sn
+		-sn
 
 - [ ] What is the flag for a UDP scan?
  
-	-sU
+		-sU
 
 - [ ] How do you run default scripts?
 
-	-sC
+		-sC
 
 - [ ] How do you enable "aggressive mode"(Enables OS detection, version detection, script scanning, and traceroute)
 
-	-A
+		-A
 
 - [ ] What flag enables OS detection
 
-	-O
+		-O
 
 - [ ] How do you get the versions of services running on the target machine    
 
-	-sV
+		-sV
 
  
 	==> Deploy the machine
