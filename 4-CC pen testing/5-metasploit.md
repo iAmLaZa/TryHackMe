@@ -5,6 +5,9 @@ Once you have installed metasploit through either the installer or your distribu
 
 Running that command will present you with an "msf5" prompt which will allow you to enter commands. All tasks can be answered with use of the "help" command.
 
+![meta1](https://user-images.githubusercontent.com/94765997/179359869-6eafe42f-d1f6-4d11-af92-87ce99560231.png)
+
+
 - [ ] What command allows you to search modules?
 
 		search
@@ -25,10 +28,18 @@ Running that command will present you with an "msf5" prompt which will allow you
 		show
 # Selecting a module 
  Once you have found the module for the specific machine that you want to exploit, you need to select it and set the proper options. This task will take you through selecting and setting options for one of the most popular metasploit modules "eternalblue". All basic commands that could be run before selecting a module can also be done while a module is selected.
-	search eternalblue
+	
+		search eternalblue
+		
+![meta2](https://user-images.githubusercontent.com/94765997/179359900-7b98c2d4-1774-43ff-80ab-13cc8c5ffcf8.png)
+
+
 - [ ] How do you select the eternalblue module?
 
 		use exploit/windows/smb/ms17_010_eternalblue
+		
+![meta3](https://user-images.githubusercontent.com/94765997/179359924-545e1882-418c-4fb6-b042-36431316e811.png)
+
 - [ ] What option allows you to select the target host(s)?
 
 		RHOSTS
@@ -43,10 +54,14 @@ Running that command will present you with an "msf5" prompt which will allow you
 
 		set SMBUser password
 - [ ] What option sets the architecture to be exploited?
+
 		arch
 - [ ] What option sets the payload to be sent to the target machine?
+
 		payload
 - [ ] Once you've finished setting all the required options, how do you run the exploit?
+		
+		
 		exploit
 - [ ] What flag do you set if you want the exploit to run in the background?
 
@@ -57,6 +72,9 @@ Running that command will present you with an "msf5" prompt which will allow you
 - [ ] What flag allows you to go into interactive mode with a session("drops you either into a meterpreter or regular shell")
 
 		-i
+		
+![meta4](https://user-images.githubusercontent.com/94765997/179359943-efef653d-1651-4759-8717-783abe08ad53.png)
+
 # meterpreter
 
 
@@ -94,8 +112,11 @@ Once you've run the exploit, ideally it will give you one of two things, a regul
 		background
 # Final Walkthrough
 
+![meta5](https://user-images.githubusercontent.com/94765997/179359976-e05489f7-1c24-467c-8310-508138b9c947.png)
+
 
 - [ ] Select the module that needs to be exploited
+
 		use exploit/multi/http/nostromo_code_exec
 - [ ] What variable do you need to set, to select the remote host
 
