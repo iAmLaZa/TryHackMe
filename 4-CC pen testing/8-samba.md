@@ -26,7 +26,9 @@ Continuing with the trend of tools having "map" in the name being extremely popu
 
 		-d
 - [ ] What flag downloads a file?
+
 		--download
+		
 - [ ] What about uploading one?
 
 		--upload
