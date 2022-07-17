@@ -43,10 +43,15 @@ Example: if the php extension is set, and the word is "admin" then gobuster will
 		-u
 Deploy the machine
 
+![g2](https://user-images.githubusercontent.com/94765997/179360069-55fb0f04-5bce-4347-a29d-d05d087b3542.png)
+
 
 - [ ] What is the name of the hidden directory
 		gobuster dir -e -u http://10.10.234.146/ -w /usr/share/dirb/wordlists/common.txt
 
 		secret
 - [ ] What is the name of the hidden file with the extension xxa
+		
 		password
+		
+![g3](https://user-images.githubusercontent.com/94765997/179360078-97e4f016-a1dc-41d9-b443-96ac4cad9e8e.png)
