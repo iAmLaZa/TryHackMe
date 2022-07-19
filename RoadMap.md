@@ -2,9 +2,16 @@
 - [ ] OpenVPN https://tryhackme.com/room/openvpn
 - [ ] Welcome https://tryhackme.com/jr/welcome
 - [ ] Intro to Researching https://tryhackme.com/room/introtoresearch
+- [ ] Intro to networking https://tryhackme.com/jr/introtonetworking
+- [ ] What is networing https://tryhackme.com/room/whatisnetworking
+- [ ] Intro to lan https://tryhackme.com/room/introtolan
+- [ ] DNS in detail https://tryhackme.com/room/dnsindetail
 - [ ] Linux Fundamentals Part 1 https://tryhackme.com/room/linuxfundamentalspart1
 - [ ] Linux Fundamentals Part 2 https://tryhackme.com/room/linuxfundamentalspart2
 - [ ] Linux Fundamentals Part 3 https://tryhackme.com/room/linuxfundamentalspart3
+- [ ] windows Fundamentals Part 1 https://tryhackme.com/room/windowsfundamentals1xbx
+- [ ] windows Fundamentals Part 2 https://tryhackme.com/room/windowsfundamentals2xbx
+- [ ] windows Fundamentals Part 3 https://tryhackme.com/room/windowsfundamentals3xbx
 - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
 
 **Introductory CTFs to get your feet wet**
